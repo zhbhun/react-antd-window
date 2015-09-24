@@ -1,8 +1,8 @@
 {
-  "name": "react-antd-bootstrap",
+  "name": "react-antd-window",
   "version": "0.1.1",
   "description": "react antd window.",
-  "homepage": "http://github.com/zhbhun/react-antd-bootstrap",
+  "homepage": "http://github.com/zhbhun/react-antd-window",
   "repository": {
     "type": "git",
     "url": "https://github.com/zhbhun/react-antd-window.git"
