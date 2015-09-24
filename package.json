@@ -1,0 +1,58 @@
+{
+  "name": "react-antd-bootstrap",
+  "version": "0.1.1",
+  "description": "react antd window.",
+  "homepage": "http://github.com/zhbhun/react-antd-bootstrap",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zhbhun/react-antd-window.git"
+  },
+  "keywords": [
+    "web",
+    "react",
+    "react-component",
+    "antd",
+    "window",
+    "modal",
+    "dialog",
+    "front-end"
+  ],
+  "files": [
+    "dist",
+    "lib/*.js",
+    "style/*.css",
+    "README.md",
+    "LICENSE"
+  ],
+  "main": "./lib/index",
+  "scripts": {
+    "clean": "rimraf lib",
+    "build": "npm run clean && babel src --out-dir lib -e 0",
+    "test": "webpack-dev-server --config webpack.config.test.js",
+    "dist": "webpack --config webpack.config.dist.js"
+  },
+  "dependencies": {
+    "antd": "^0.9.0",
+    "object-assign": "^4.0.1",
+    "react": "~0.13.3",
+    "react-window-kit": "^0.1.1"
+  },
+  "devDependencies": {
+    "babel-core": "^5.6.15",
+    "babel-loader": "^5.2.2",
+    "bundle-loader": "^0.5.4",
+    "css-loader": "^0.15.1",
+    "extract-text-webpack-plugin": "^0.8.2",
+    "node-libs-browser": "^0.5.2",
+    "rimraf": "^2.4.3",
+    "style-loader": "^0.12.3",
+    "url-loader": "^0.5.6",
+    "webpack": "^1.10.1",
+    "webpack-dev-server": "^1.10.1"
+  },
+  "author": "zhbhun",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zhbhun/react-antd-window/issues"
+  }
+}
